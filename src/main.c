@@ -4,6 +4,7 @@
 #include <util/delay.h>
 
 const pin_t start_btn = {port: &PORTB, data: &PINB, ddr: &DDRB, pin: PB3};
+void start_operations();
 
 int main(void) {
     configurePins();
