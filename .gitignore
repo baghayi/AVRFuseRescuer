@@ -1,0 +1,3 @@
+bin/output.hex
+bin/output.elf
+bin/*.o
